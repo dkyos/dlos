@@ -5,7 +5,7 @@
 # https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/
 
 import numpy as np
-import cv2
+import cv2 # pip install opencv-python
 
 from keras.models import Model, Sequential
 from keras.layers import Input, Convolution2D, ZeroPadding2D
